@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Force - Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Header -->
+        <header>
+            <div class="mobile-controls">
+                <button class="burger-btn" aria-label="Toggle Menu">☰</button>
+                <button class="bag-btn" aria-label="Toggle Purchases">👜</button>
+            </div>
+            <h1><a href="index.html">Computer Force</a></h1>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-links">
+                <a href="products.html">Products</a>
+                <a href="register.html">Register</a>
+                <a href="about.html">About</a>
+                <a href="gabriel.html">Gabriel</a>
+            </div>
+            <form class="search-bar">
+                <input type="text" class="search-input" placeholder="Search products...">
+                <button type="submit" class="btn-search">Search</button>
+            </form>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <h1>Products we sell</h1>
+            <p>Explore our wide range of computing products, from core hardware to the latest peripherals and software solutions.</p>
+            
+            <div class="category-grid">
+                <section id="audio" class="category-card">
+                    <img src="assets/audio.png" alt="Audio">
+                    <h2 id="audio-title">Audio</h2>
+                </section>
+                <section id="computers" class="category-card">
+                    <img src="assets/computers.png" alt="Computers">
+                    <h2 id="computers-title">Computers</h2>
+                </section>
+                <section id="graphics-cards" class="category-card">
+                    <img src="assets/graphics.png" alt="Graphics cards">
+                    <h2 id="graphics-cards-title">Graphics cards</h2>
+                </section>
+                <section id="keyboard-mice" class="category-card">
+                    <img src="assets/peripherals.png" alt="Keyboard and mice">
+                    <h2 id="keyboard-mice-title">Keyboard and mice</h2>
+                </section>
+                <section id="laptops" class="category-card">
+                    <img src="assets/laptops.png" alt="Laptops">
+                    <h2 id="laptops-title">Laptops</h2>
+                </section>
+                <section id="monitors" class="category-card">
+                    <img src="assets/monitors.png" alt="Monitors">
+                    <h2 id="monitors-title">Monitors</h2>
+                </section>
+                <section id="networking" class="category-card">
+                    <img src="assets/peripherals.png" alt="Networking">
+                    <h2 id="networking-title">Networking</h2>
+                </section>
+                <section id="peripherals" class="category-card">
+                    <img src="assets/peripherals.png" alt="Peripherals">
+                    <h2 id="peripherals-title">Peripherals</h2>
+                </section>
+                <section id="printing" class="category-card">
+                    <img src="assets/printing.png" alt="Printing & scanning">
+                    <h2 id="printing-title">Printing & scanning</h2>
+                </section>
+                <section id="software" class="category-card">
+                    <img src="assets/software.png" alt="Software">
+                    <h2 id="software-title">Software</h2>
+                </section>
+                <section id="storage" class="category-card">
+                    <img src="assets/peripherals.png" alt="Storage">
+                    <h2 id="storage-title">Storage</h2>
+                </section>
+                <section id="tablets" class="category-card">
+                    <img src="assets/tablets.png" alt="Tablets">
+                    <h2 id="tablets-title">Tablets</h2>
+                </section>
+            </div>
+        </main>
+
+        <!-- Aside (Purchases) -->
+        <aside>
+            <h2>Purchases</h2>
+            <table class="purchases-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price (AUD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Test Item 1</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>Test Item 2</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td>Total</td>
+                        <td>$1500</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn-checkout">Go to Checkout</button>
+        </aside>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Computer Force. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
